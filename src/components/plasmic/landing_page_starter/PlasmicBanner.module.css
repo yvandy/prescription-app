@@ -1,0 +1,104 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: #f2f2f7;
+  min-width: 0;
+  border-radius: 16px;
+}
+.right {
+  display: flex;
+  position: absolute;
+  width: 75%;
+  right: 0px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .right {
+    opacity: 0.25;
+  }
+}
+.img__xw3Bd {
+  position: relative;
+  align-self: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.freeBox {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #f2f2f7 0%, transparent 48%);
+}
+.left {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 50%;
+  padding: 128px;
+}
+.left > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.left > :global(.__wab_flex-container) > *,
+.left > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .left {
+    padding: 32px;
+  }
+}
+.freeBox__omwkz {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  height: auto;
+}
+.freeBox__stjiL {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000d9 /* plasmic-token: EM7zEEXTl3OHBI */;
+  line-height: 1;
+  height: auto;
+}
+.svg___3QO2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599 /* plasmic-token: GtLKhB3CzpjrlX */;
+}
+.freeBox___88PYp {
+  height: auto;
+  width: auto;
+  color: #007aff /* plasmic-token: FBW_i9DojvHqWD */;
+  display: inline-block;
+}
+.svg__fIjwO {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599 /* plasmic-token: GtLKhB3CzpjrlX */;
+}
